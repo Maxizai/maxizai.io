@@ -1,0 +1,156 @@
+/** General **/
+ul{
+    list-style-type: none;
+}
+
+h1, h2{
+    font-family: 'Oswald', sans-serif;
+}
+p, li{
+    font-family: 'Gloock', serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+/** Estuctura **/
+.lateral-iz{
+   display: flex; 
+   width: 1200px;
+   margin: 0 auto;
+}
+
+
+/** Diseño de Lateral **/
+#Foto-Perfil img{
+    border-radius: 60%;
+}
+aside {
+    background-color: #356F8C;
+    width: 30%;
+    margin-right: 10px;
+    color: white;
+}
+
+aside h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+aside section h2:first-child{
+    border-bottom: 2px solid white;
+}
+
+a {
+padding: 15px;
+color: whitesmoke
+}
+
+meter {
+    display: block;
+    width: 80%;
+}
+meter::-webkit-meter-optimum-value {
+    background: none;
+    background-color: gray;
+  }
+  meter::-webkit-meter-bar {
+    background: none;
+    background-color: whitesmoke;
+  }
+
+/** Diseño Principal **/
+.nombre{
+    background-color: #809196;
+    box-shadow: 2px 2px 20px 20px #98ABB3 inset;
+    padding: 2px 2px;
+    text-align: center;
+
+}
+.nombre h2{
+    color: white;
+    border-top:  2px solid white;
+}
+
+.des p{
+    background-color: #B8D0D9;
+    line-height: 2em;
+    padding: 5px;
+}
+
+#exp1{
+    display: flex;
+    width: 400px;
+}
+
+#exp2{
+    display: flex;
+    width: 400px;
+}
+
+/** Formulario **/
+
+
+.formulario{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 500px ;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.formulario__titulo{
+    text-align:justify;
+    margin-top: 0;
+    Color: rgba(0, 0, 0, 0.7)
+}
+.formulario, .formulario__label, .formulario__submit{
+display: block;
+width: 100%;
+font-size: 1.3em;
+}
+.formulario{
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 20px; 
+    margin-bottom: 40px;
+    background: transparent;
+}
+.formulario:focus + .formulario__label{
+    margin-top: -140px;
+}
+
+.formulario__label{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color:rgba(0, 0, 0, 0.5);
+    transition: all 0.2s;
+}
+.formulario__submit{
+    background: gray;
+    color: white;
+    padding: 10px, 20px;
+    cursor:pointer;
+}
+
+.fijar{
+    margin-top: -135px;
+
+}
+
+/** Boton **/
+button {
+  padding: 10px 20px;
+      background-color: #356F8B;
+    color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+#myText {
+	margin-top: 20px;
+	display: none;
+}
